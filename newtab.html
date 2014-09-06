@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>New Tab</title>
+<style>
+body
+{
+    font-family: "Segoe UI";
+    font-size: 20;
+    color: #CCC;
+    background-color: #222;
+	text-shadow: 0px 0px 12px #000;
+}
+h1
+{
+    text-align: center;
+    font-size: 30;
+    margin: 16px;
+	color: #c5c8c6;
+}
+font.red
+{
+	text-align: center;
+    font-size: 36px;
+    margin: 2px;
+    color: #BB2211;
+	transition: all .125s;
+}
+font.red:hover
+{
+	text-shadow: 0px 0px 12px #AAA;
+}
+form 
+{ 
+    margin: auto;
+    width: 400px;
+	box-shadow: 0px 0px 5px #000;
+	font-size: 20px;
+}
+input
+{
+    margin: inherit;
+    font-size: inherit;
+    display: block;
+    float: left;
+    height: auto;
+    background: #222;
+    border-style: solid;
+    border-color: #333;
+    color: #bcbcbc;
+	box-shadow: -2px 0px 5px #000;
+	border-right: 1px #333;
+}
+input.submit
+{
+	box-shadow: 2px 0px 5px #000;
+    margin: inherit;
+    font-size: inherit;
+    display: block;
+    float: left;
+    height: auto;
+    background: #222;
+    border-style: solid;
+    border-color: #333;
+    color: #bcbcbc;
+	border-left: 1px #333;
+}
+a
+{
+    text-decoration: none;
+    margin: 1px;
+	font-size: 18px;
+}
+a:link, a:visited
+{
+    color: #CCC;
+}
+a:hover, a:active
+{
+    color: #EEE;
+	text-align: right;
+}
+a.raquo
+{
+	color: #BB2211;
+}
+a.category:hover, a.category:active
+{
+	color: #CCC;
+}
+ul
+{
+	display: inline;
+}
+ul.submenu
+{
+	display: block;
+}
+li
+{
+	display: inline;
+	position: relative;
+	left: 6.25%;
+}
+div#container
+{
+	border: 5px #333 solid;
+	width: 50%;
+	position: relative;
+	left: 25%;
+	box-shadow: 0px 0px 5px #000;
+}
+</style>
+<title>New Tab</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+<br><br>
+<div id="searchdiv">
+<form method="get" action="https://www.google.com/search">
+	<input type="hidden" name="cref" value="">
+	<input type="hidden" name="ie" value="utf-8">
+	<input type="hidden" name="hl" value="">
+	<input name="q" type="text" style="width: 318px">
+	<input name="sa" type="submit" value="Search" style="width: 80px"/ class="submit">
+</form>
+</div>
+<br><br>
+<h1><font class="red">リンクス</font></h1>
+<br><br>
+<div id="container">
+<ul class="submenu">
+	<li><a href="" class="category">                   Video</a></li>
+	<li><a class="raquo" href="">&raquo;</a></li>
+	<li><a href="http://www.youtube.com">Youtube</a></li>
+	<li><a href="http://www.netflix.com">Netflix</a></li>
+	<li><a href="http://www.projectfree.tv">ProjectFreeTV</a></li>
+</ul>
+<ul class="submenu">
+	<li><a href="" class="category">          Technology</a></li>
+	<li><a class="raquo" href="">&raquo;</a></li>
+	<li><a href="http://www.codeacademy.com">Codeacademy</a></li>
+	<li><a href="http://www.stackoverflow.com">Stack Overflow</a></li>
+	<li><a href="http://www.github.com">Github</a></li>
+	<li><a href="http://boards.4chan.org/g/">/g/</a></li>
+</ul>
+
+<ul class="submenu">
+	<li><a href="" class="category">                  Reddit</a></li>
+	<li><a class="raquo" href="">&raquo;</a></li>
+	<li><a href="http://www.reddit.com/r/unixporn">Unixporn</a></li>
+	<li><a href="http://www.reddit.com/r/LinuxActionShow">LAS</a></li>
+	<li><a href="http://www.reddit.com/r/startpages">Startpages</a></li>
+</ul>
+
+<ul class="submenu">
+	<li><a href="" class="category">Image and Webm</a></li>
+	<li><a class="raquo" href="">&raquo;</a></li>
+	<li><a href="http://www.imgur.com">Imgur</a></li>
+	<li><a href="http://www.pomf.se">Pomf</a></li>
+	<li><a href="http://www.gfycat.com">Gfycat</a></li>
+</ul>
+
+<ul class="submenu">
+	<li><a href="" class="category">               Random</a></li>
+	<li><a class="raquo" href="">&raquo;</a></li>
+	<li><a href="http://www.azlyrics.com">AZ Lyrics</a></li>
+	<li><a href="http://www.wallbase.cc">Wallbase</a></li>
+	<li><a href="http://qrohlf.com/trianglify/">Trianglify</a></li>
+	<li><a href="http://hastebin.com">Hastebin</a></li>
+	<li><a href="http://pastebin.com">Pastebin</a></li>
+</ul>
+</div>
+</body>
+</html>
